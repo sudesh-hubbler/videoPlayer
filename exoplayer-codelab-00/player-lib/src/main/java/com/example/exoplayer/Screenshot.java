@@ -35,7 +35,7 @@ public class Screenshot {
 //        return takeScreenShot(v.getRootView());
 //    }
 
-    public static void SaveImageToLocal(Bitmap bitmap) {
+    public static void SaveImageToLocalDirectory(Bitmap bitmap) {
 
         try {
             File imageFile;
